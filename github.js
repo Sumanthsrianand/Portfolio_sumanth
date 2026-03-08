@@ -18,7 +18,7 @@ div.innerHTML=`
 
 <p>${repo.description || "Cybersecurity project"}</p>
 
-<a href="${repo.html_url}" target="_blank">
+<a href="${repo.html_url}" target="https://github.com/Sumanthsrianand">
 View Repository
 </a>
 
