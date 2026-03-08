@@ -1,0 +1,66 @@
+body{
+background:#050505;
+color:#e5e5e5;
+font-family:monospace;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:48px;
+color:#00ff88;
+}
+
+.tagline{
+color:#999;
+}
+
+.buttons a{
+border:1px solid #00ff88;
+padding:10px 20px;
+margin:10px;
+display:inline-block;
+}
+
+.terminal-container{
+max-width:800px;
+margin:auto;
+padding:40px;
+}
+
+#terminal{
+background:#0f172a;
+padding:20px;
+border-radius:10px;
+color:#00ff88;
+min-height:200px;
+font-family:monospace;
+}
+
+.content{
+max-width:900px;
+margin:auto;
+padding:80px 20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+}
+
+.repo{
+background:#111;
+padding:20px;
+border-radius:10px;
+border:1px solid #222;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#777;
+}
